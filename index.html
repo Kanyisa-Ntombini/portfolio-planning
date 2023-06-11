@@ -1,42 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="css/simple-grid/grid/simple-grid.min.css">
-   <link rel="stylesheet" href="css/index.css">
-   <script src="src/index.js" async></script>
-   <title>Kanyisa Ntombini - Portfolio</title>
-</head>
-<body>
-   <header>
-      <h1><a href="#">Kanyisa Ntombini</a></h1>
-      <nav>
-         <div class="hamburger-icon" id="hamburgerIcon">&#9776;</div>
-         <div class="cross-icon" id="crossIcon">&times;</div>
-         <ul>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/index.css" />
+    <title>Kanyisa Ntombini - Portfolio</title>
+  </head>
+  <body>
+    <div class="whole-page">
+      <header>
+        <h1>Kanyisa Ntombini</h1>
+        <nav>
+          <div class="hamburger-icon" id="hamburgerIcon">&#9776;</div>
+          <div class="cross-icon" id="crossIcon">&times;</div>
+          <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
-         </ul>
-      </nav>
-   </header>
+          </ul>
+        </nav>
+      </header>
 
-   <main>
-      <section id="about"></section>
+      <main>
+        <section id="about">
+          <h2>Hello there!</h2>
+          <p>
+            I am an aspiring self-taught Full Stack Web Developer. My interests
+            are in Javascript and Python. For the past few months, I have been
+            learning about Front End development using HTML, CSS and JavaScript.
+            I am also interested in building chatbots and Machine Learning. As a
+            result, I have been learning Python. You can find more information
+            about me in my
+            <a
+              href="./resources/supporting_documents/Black & White Minimalistic Professional Resume.pdf"
+              >resume</a
+            >. !!!!!!
+            I am partially sighted due to a condition called Keratoconus. This
+            has led to me becoming a disability activist. I would like to build
+            accessible websites so that all people are able to use them despite
+            their physical or mental condition.
+            !!!!!
+            When I am not coding I like taking nature walks, looking for the
+            cosiest coffee shops in town or spending time with my friends and
+            family. I am also an avid knitter!
+          </p>
+        </section>
 
-      <section id="skills"></section>
-      
-      <section id="projects">
-         <h2>Projects</h2>
-      </section>
-   </main>
+        <section id="skills">
+          <h2>Skills</h2>
 
-   <footer>
-      <section id="contact"></section>
-   </footer>
-</body>
+          <h3>Programming Languages</h3>
+          <ul>
+            <li>Javascript</li>
+            <li>Python</li>
+          </ul>
+
+          <h3>Frameworks</h3>
+          <ul>
+            <!-- <li>React</li> -->
+            <li>Node and Express</li>
+            <li>Mocha and Jasmine</li>
+          </ul>
+        </section>
+
+        <section id="projects">
+          <h2>Projects</h2>
+
+          <div>
+            <h3>Cosy corner</h3>
+            <figure>
+              <img
+                width="250px"
+                src="images/woman-reading.jpg"
+                alt="Asian woman reading a book in a coffee shop"
+              />
+              <figcaption>
+                Photo by
+                <a
+                  href="https://unsplash.com/@anthonytran?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                  >Anthony Tran</a
+                >
+                on
+                <a
+                  href="https://unsplash.com/photos/3TCrqSnSHeU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                  >Unsplash</a
+                >
+              </figcaption>
+            </figure>
+            <p>
+              Say something Repo:
+              <a
+                href="https://github.com/Kanyisa-Ntombini/cosy-corner"
+                target="_blank"
+                >Gxojeni repo</a
+              >
+            </p>
+          </div>
+
+          <div>
+            <h3>Gxojeni Project</h3>
+            <img src="./images/mabele_ntombi.jpg" alt=""  />
+            <p>
+              Say something Repo:
+              <a
+                href="https://github.com/Kanyisa-Ntombini/gxojeni"
+                target="_blank"
+                >Gxojeni repo</a
+              >
+            </p>
+          </div>
+
+          <div>
+            <h3>Coffee Bot Command-line</h3>
+            <img src="" alt="some bot image" />
+            <p>
+              Say something Repo:
+              <a
+                href="https://github.com/Kanyisa-Ntombini/coffee-maker-bot"
+                target="_blank"
+                >Coffee bot repo</a
+              >
+            </p>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <section id="contact"></section>
+        <p> &copy; 2023 Kanyisa Ntombini</p>
+      </footer>
+    </div>
+  </body>
 </html>
